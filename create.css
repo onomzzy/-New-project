@@ -1,0 +1,924 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Protest+Revolution&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#info {
+    background: rgb(4, 20, 20);
+    color: wheat;
+    padding: 1% 5%;
+    display: flex;
+    justify-content: space-between;
+    font-style: 18pt;
+    font-size: Noto Sans;
+
+}
+
+.info-txt ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 15pt;
+
+}
+
+.info-txt a {
+    color: rgb(0, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.info-icon i {
+    padding: 0px 10px;
+}
+
+/* ---------------Header----------------------------- */
+header {
+    padding: 1% 5%;
+    box-shadow: 3px 3px 5px rgba(4, 20, 20, 0.164);
+    display: flex;
+    justify-content: space-between;
+    font-family: Noto sans;
+    top: 0;
+    position: sticky;
+    z-index: 9999;
+    min-height: 40px;
+    justify-content: space-between;
+    font-family: Noto Sans;
+    background-color: white;
+}
+
+.logo {
+    font-size: 3em;
+    font-family: Noto Sans;
+}
+
+.dot {
+    color: rgb(0, 100, 95);
+}
+
+nav ul {
+    list-style: none;
+    font-weight: 600;
+    display: flex;
+    gap: 20px;
+    font-size: 12pt;
+    padding: 15px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover,
+a.active {
+    color: rgba(0, 0, 255, 0.966);
+}
+
+.menubar label {
+    font-size: 2em;
+    margin-top: 10px;
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+/* ----------------Showcase section------------------ */
+
+#showcase {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(./122.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    font-family: Noto Sans;
+}
+
+#showcase h1 {
+    font-weight: 300;
+    font-size: 4em;
+    color: whitesmoke;
+    padding-top: 13%;
+}
+
+#showcase h5 {
+    font-weight: 100;
+    font-size: 1.2em;
+    color: white;
+    padding: 20px 0px 70px 0px;
+}
+
+#showcase a.btn {
+    padding: 13px 40px;
+    background-color: rgb(0, 255, 255);
+    color: black;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+#Workspace {
+    padding: 1% 10%;
+    display: flex;
+    font-family: Noto Sans;
+    gap: 7%;
+
+}
+
+.box-space h1 {
+    font-size: 8em;
+    opacity: 0.04;
+    position: relative;
+    margin-left: -70px;
+
+}
+
+.box-space h3 {
+    font-size: 3em;
+    font-family: 400;
+    position: relative;
+    color: rgb(0, 255, 255);
+    margin-top: -100px;
+}
+
+.box-space p {
+    font-size: 10pt;
+    margin: 10px opx;
+    line-height: 1.5;
+}
+
+.box-space ul {
+    list-style: none;
+    list-style-image: url(./icons8-tick-24.png);
+    list-style-position: inside;
+    line-height: 2;
+    font-size: 11pt;
+    margin: 20px 0px;
+    text-indent: 20px;
+}
+
+/* ---------------- Ourworks---------------------- */
+#works {
+    padding: 10%;
+    font-family: Noto Sans;
+    text-align: center;
+}
+
+#works h1 {
+    font-weight: 500;
+    font-size: 3em;
+}
+
+#works p {
+    font-size: 16pt;
+    padding: 20px opx;
+    font-weight: 200;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2%;
+}
+
+.workbox {}
+
+.workbox img {
+    width: 100%;
+    position: relative;
+    height: 350px;
+
+}
+
+.txt {
+    display: none;
+}
+
+.txt h3 {
+    font-size: 1.7em;
+    font-weight: 400;
+
+}
+
+.txt h5 {
+    font-size: 14pt;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.workbox .txt {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    margin-top: -354px;
+    padding: 153px 0px;
+}
+
+.txt h3,
+.txt h5 {}
+
+.workbox:hover {
+    .txt {
+        display: block;
+    }
+
+}
+
+
+
+/* --------------------Section Two----------------------- */
+
+#features {
+    padding: 10%;
+    color: wheat;
+    font-family: Noto Sans;
+}
+
+.container {
+    background-color: rgb(4, 20, 20);
+    display: flex;
+    padding: 20px;
+    gap: 3%;
+}
+
+.featimg {
+    width: 60%;
+}
+
+.featimg img {
+    width: 90%;
+}
+
+.featgrid {
+    width: 48%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2%;
+    padding-top: 20px;
+}
+
+.feat-box {
+    padding-top: 50px;
+
+}
+
+.feat-box h3 {
+    font-size: 1.4em;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.feat-box p {
+    font-size: 12pt;
+    line-height: 1.6;
+    color: wheat;
+    font-weight: 100;
+}
+
+.feat-box .link {
+    padding-top: 20px;
+
+}
+
+.link a {
+    font-size: 12pt;
+    color: wheat;
+}
+
+.link a:hover {
+    color: rgba(0, 0, 255, 0.966);
+    text-decoration: none;
+}
+
+.feat-box i {
+    padding-right: 7px;
+}
+
+/* ----------------------Testimonial------------------- */
+
+#testimonial {
+    font-family: Noto Sans;
+    padding: 5% 10%;
+    text-align: center;
+}
+
+#testimonial h1 {
+    font-size: 4.2em;
+    font-weight: 400;
+}
+
+#testimonial p {
+    font-size: 20pt;
+    padding-top: 40px;
+    line-height: 1.7;
+    color: #000;
+    letter-spacing: .5px;
+
+}
+
+.testauthor {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.test-img {
+    display: flex;
+    width: 20%;
+    gap: 5%;
+}
+
+.test-img img {
+    border-radius: 50%;
+}
+
+.test-img img h4 {
+    border-radius: 50%;
+    padding-top: 20%;
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+/* ----------------Our Services-------------------------------- */
+#services {
+    padding: 5% 10%;
+    font-family: Noto Sans;
+
+}
+
+#services h1 {
+    text-align: center;
+    font-size: 4.0em;
+    font-family: Noto Sans 'Times New Roman', Times, serif;
+    font-weight: 500;
+    padding: 30px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+
+
+}
+
+.servicebox {
+    display: flex;
+    gap: 5%;
+
+}
+
+.servicebox i {
+    font-size: 3em;
+    color: rgb(0, 255, 255);
+}
+
+.servicebox h3 {
+    font-size: 1.5em;
+    color: rgba(0, 0, 139, 0.397);
+    font-weight: 700;
+}
+
+.servicebox p {
+    color: black;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 12pt;
+    padding-top: 5px;
+}
+
+.link2 {
+    padding-top: 20px;
+}
+
+.link2 a {
+    font-size: 12pt;
+    color: yellowgreen;
+
+}
+
+.link2:hover {
+    text-decoration: none;
+}
+
+#about {
+    padding: 5% 10%;
+    font-family: Noto Sans;
+    display: grid;
+    grid-template-columns: 53% 41%;
+    gap: 4%;
+    background-color: wheat;
+}
+
+.aboutimg img {
+
+    width: 100%;
+    border-radius: 10pt;
+}
+
+.about h1 {
+    font-size: 3em;
+    font-weight: 300;
+}
+
+#about p {
+    font-size: 15pt;
+    line-height: 1.5;
+    color: #000;
+    padding-top: 30px;
+
+}
+
+.about-flex {
+    padding-top: 30px;
+    display: flex;
+    gap: 5%;
+}
+
+.aboutbox i {
+    font-size: 3em;
+    color: rgba(0, 0, 139, 0.397);
+    padding: 10px 0px;
+}
+
+.aboutbox h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.about .aboutbox p {
+    font-size: 12pt;
+}
+
+
+
+/* --------------------our teams-------------------------- */
+#teams {
+    padding: 5% 10%;
+    font-family: Noto Sans;
+    text-align: center;
+    background-color: wheat
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+
+}
+
+.teams h1 {
+    font-size: 3.7em;
+    font-weight: 400;
+}
+
+.team-img img {
+    width: 60%;
+    border-radius: 50%;
+}
+
+.team-box h4 {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.team-box h5 {
+    font-size: .8em;
+    font-weight: 400;
+    padding-top: 5px;
+    color: rgb(4, 20, 20);
+}
+
+.team-box p {
+    font-size: 13px;
+    padding-top: 15pt;
+    line-height: 1.7;
+    color: black;
+}
+
+.team-icons i {
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 3px;
+    color: black;
+    font-size: 10pt;
+}
+
+/* ------------------Our Blog------------------------------- */
+
+#blog {
+    padding: 5% 10%;
+    font-family: Noto Sans;
+    background-color: wheat;
+}
+
+#blog h1 {
+    font-size: 3.5em;
+    padding: 3% 0px;
+    font-weight: 400;
+    text-align: center;
+    font-family: Noto Sans;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+}
+
+.blog-box img {
+    width: 100%;
+}
+
+.blog-box ul {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    font-size: 12pt;
+}
+
+.blog-box ul li:first-child {
+    list-style-type: none;
+}
+
+.blog-box ul li {
+    font-family: Noto Sans;
+    gap: 10px;
+    color: black;
+    line-height: 1.3;
+    padding: 10px 0px;
+    font-weight: 200;
+
+}
+
+.blog-box h4 {
+    font-family: Noto sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: rgb(0, 100, 95);
+    line-height: 1.2;
+    padding-top: 20px;
+
+
+}
+
+.blog-box ul li a {
+    color: rgba(0, 0, 255, 0.966);
+}
+
+.blog-box p {
+    font-size: 12px;
+    padding-top: 15pxs;
+    line-height: 1.7;
+    color: black;
+}
+
+.link2 a {
+    color: rgb(0, 100, 95);
+}
+
+/* ----------------contact section-------------------------- */
+
+#contact {
+    background-color: rgba(245, 222, 179, 0.726);
+    font-family: Noto Sans;
+    padding: 5% 10%;
+}
+
+#contact h1 {
+    font-size: 3.5em;
+    padding: 3% 0%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact-grid {
+    display: flex;
+    gap: 50px;
+
+}
+
+.contact-form {
+    background-color: rgb(0, 100, 95);
+    padding: 4%;
+    width: 43%;
+}
+
+
+.contact-form h2 {
+    font-size: 2em;
+    padding: 1% 0px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.con-input {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.con-input label {
+    padding: 0px 5px;
+}
+
+.contact-form input {
+    width: 98%;
+    font-size: 13pt;
+    padding: 8px 10px;
+    margin-top: 5px;
+    border-radius: 50px;
+    border: .5px solid rgba(0, 0, 0, 0.3);
+}
+
+.contact-form textarea {
+    width: 98%;
+    font-size: 13pt;
+    padding: 17px 10px;
+    margin-top: 5px;
+    border-radius: 50px;
+    border: .5px solid rgba(0, 0, 0, 0.3);
+}
+
+.contact-form input[type='submit'] {
+    width: fit-content;
+    background-color: rgb(0, 100, 95);
+    color: black;
+    background-color: ghostwhite;
+    padding: 12px 40px;
+    font-size: 10pt;
+}
+
+.contact-info {
+    background-color: rgb(0, 100, 95);
+    padding: 4%;
+    border-radius: 10px;
+    width: 45%;
+    height: fit-content;
+
+}
+
+.contact-info p {
+    padding-bottom: 30px;
+
+}
+
+.contact info h4 {
+    font-size: 1.2em;
+    padding: 2px;
+
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+/* --------------lets get started------------ */
+
+#started {
+    background-color: rgb(0, 100, 95);
+    padding: 30px 10px;
+}
+
+#started h1 {
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-family: Noto Sans;
+    line-height: 1.7;
+    font-size: 2.0em;
+    font-weight: 300;
+    transition: 2s;
+}
+
+#started:hover {
+    background-color: rgba(0, 100, 95, 0.822);
+
+}
+
+/* ----------------------footer------------------------- */
+footer {
+    background: rgb(4, 20, 20);
+    padding: 10%;
+    font-family: Noto Sans;
+}
+
+.foot-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 8%;
+
+}
+
+hr.foothr {
+    border-top: 2px solid wheat;
+}
+
+.footbox h5 {
+    font-size: 1em;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.footbox p {
+    color: wheat;
+    font-size: 11.5pt;
+    line-height: 1.5;
+
+}
+
+.footbox ul {
+    list-style: none;
+    line-height: 1.7;
+
+}
+
+.footbox ul li a {
+    color: wheat;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 11.5pt;
+}
+
+.footbox ul li a:hover {
+    color: white;
+}
+
+.footbox i {
+    color: rgb(0, 255, 255);
+    padding-right: 20px;
+}
+
+.footbox input[type=email] {
+    width: 60%;
+    padding: 10px;
+    background: none;
+    border-radius: 20px;
+    border: 1px solid grey;
+
+
+}
+
+.footbox input[type=submit] {
+
+    padding: 10px;
+    background: rgb(0, 100, 95);
+    border: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    margin-left: -56px;
+}
+
+.foot-bootm {
+    padding: 3%;
+    text-align: center;
+}
+
+.foot-bootm p {
+    color: wheat;
+}
+
+.foot-bootm a {
+    text-decoration: none;
+    transition: .5s;
+    color: rgb(0, 255, 255);
+}
+
+.foot-bootm a:hover {
+    font-weight: 300;
+    color: white;
+}
+
+.foot-bootm i {
+    color: rgba(179, 32, 32, 0.89);
+}
+
+
+@media screen and (max-width:600px) {
+    #info {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 100, 95, 0.822);
+    }
+
+    nav ul li {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header {
+        align-items: flex-start;
+    }
+
+    header label {
+        display: block;
+        margin-top: 10px;
+    }
+
+    .menubar label {
+        display: block;
+        margin-top: 10px;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+
+    input[type="checkbox"]:checked~nav ul {
+        display: flex;
+    }
+
+    #Workspace {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+
+    }
+
+    .works-grid {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .featimg {
+        width: 100%;
+    }
+
+    .featgrid {
+        width: 100%;
+    }
+
+    .feat-grid {
+        padding-top: 50px;
+    }
+
+    .test-img {
+        width: 60%;
+    }
+
+    #features {
+        padding-top: 50%;
+    }
+
+    .service-grid {
+        grid-template-columns: auto;
+    }
+
+    #about {
+        margin-top: 70%;
+        grid-template-columns: auto;
+    }
+    #teams{
+        padding: 50px 0px;
+    }
+    .teams-grid{
+        grid-template-columns: auto;
+    }
+    #blog{
+        padding: 30% opx 50% 0px;
+    }
+    .blog-grid{
+        grid-template-columns: auto;
+    }
+    #contact{
+        margin: 30% 0px 50% 0px;
+
+    }
+    .contact-grid{
+        flex-direction: column;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .foot-grid{
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+}
